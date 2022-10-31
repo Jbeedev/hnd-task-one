@@ -2,11 +2,10 @@ import React from "react";
 import ProfileImg from "../images/about-image.jpg";
 import Logo from "../images/ingressive.png";
 import { BsGithub } from "react-icons/bs";
-import { Link } from "react-router-dom";
 
 const LinkTree = () => {
   return (
-    <div className=" bg-white py-6 px-2 lg:px-20 ">
+    <div className=" bg-white py-6 px-4 lg:px-[144px] ">
       <div className=" ">
         <div className=" my-5 space-y-3 flex justify-center flex-col items-center ">
           <img
@@ -18,54 +17,49 @@ const LinkTree = () => {
           <h3>Ajibade Ajibola</h3>
         </div>
         <div className="flex flex-col space-y-4">
-          <Link>
-            <button
-              className=" bg-gray-200 text-lg font-medium text-black rounded-md py-6 "
-              type="button"
+        
+            <a href="https://twitter.com"
+              className=" text-center bg-gray-200 text-lg font-medium text-black rounded-md py-6 "
+              type="a"
             >
+             
               Twitter Link
-            </button>
-          </Link>
-          <Link>
-            <button
-              className=" bg-gray-200 text-lg font-medium text-black rounded-md py-6 "
-              type="button"
+            </a>
+          
+            <a href="https://training.zuri.team/"
+              className=" text-center bg-gray-200 text-lg font-medium text-black rounded-md py-6 "
+              type="a"
             >
               Zuri Team
-            </button>
-          </Link>
-          <Link>
-            <button
-              className=" bg-gray-200 text-lg font-medium text-black rounded-md py-6 "
-              type="button"
+            </a>
+          
+            <a href="https://books.zuri.team/"
+              className=" text-center bg-gray-200 text-lg font-medium text-black rounded-md py-6 "
+              type="a"
             >
               Zuri Books
-            </button>
-          </Link>
-          <Link>
-            <button
-              className=" bg-gray-200 text-lg font-medium text-black rounded-md py-6 "
-              type="button"
+            </a>
+          
+            <a href="https://books.zuri.team/"
+              className=" text-center bg-gray-200 text-lg font-medium text-black rounded-md py-6 "
+              type="a"
             >
               Python Books
-            </button>
-          </Link>
-          <Link>
-            <button
-              className=" bg-gray-200 text-lg font-medium text-black rounded-md py-6 "
-              type="button"
+            </a>
+          
+            <a href="https://background.zuri.team/"
+              className=" text-center bg-gray-200 text-lg font-medium text-black rounded-md py-6 "
+              type="a"
             >
               Background Check for Coders
-            </button>
-          </Link>
-          <Link>
-            <button
-              className=" bg-gray-200 text-lg font-medium text-black rounded-md py-6 "
-              type="button"
+            </a>
+          
+            <a href="https://books.zuri.team/design-rules"
+              className=" text-center bg-gray-200 text-lg font-medium text-black rounded-md py-6 "
+              type="a"
             >
               Design Books
-            </button>
-          </Link>
+            </a>
         </div>
       </div>
       <div className="flex space-x-5 items-center justify-center my-7 ">
