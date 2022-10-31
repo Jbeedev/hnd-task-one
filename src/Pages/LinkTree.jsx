@@ -18,7 +18,7 @@ const LinkTree = () => {
         </div>
         <div className="flex flex-col space-y-4">
         
-            <a href="https://twitter.com"
+            <a href="https://twitter.com/AjibolaAjibade4"
               className=" text-center bg-gray-200 text-lg font-medium text-black rounded-md py-6 "
               type="a"
             >
