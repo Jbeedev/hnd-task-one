@@ -14,7 +14,7 @@ const LinkTree = () => {
             alt="Profile"
             id="profile_img"
           />
-          <h3 id="jaybee">Ajibade Ajibola</h3>
+          <h3 id="jaybee" className=" text-xl font-bold">Ajibade Ajibola</h3>
         </div>
         <div className="flex flex-col space-y-4">
           <a
