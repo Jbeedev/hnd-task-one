@@ -14,52 +14,62 @@ const LinkTree = () => {
             alt="Profile"
             id="profile_img"
           />
-          <h3>Ajibade Ajibola</h3>
+          <h3 id="jaybee">Ajibade Ajibola</h3>
         </div>
         <div className="flex flex-col space-y-4">
-        
-            <a href="https://twitter.com/AjibolaAjibade4"
-              className=" text-center bg-gray-200 text-lg font-medium text-black rounded-md py-6 "
-              type="a"
-            >
-             
-              Twitter Link
-            </a>
-          
-            <a href="https://training.zuri.team/"
-              className=" text-center bg-gray-200 text-lg font-medium text-black rounded-md py-6 "
-              type="a"
-            >
-              Zuri Team
-            </a>
-          
-            <a href="https://books.zuri.team/"
-              className=" text-center bg-gray-200 text-lg font-medium text-black rounded-md py-6 "
-              type="a"
-            >
-              Zuri Books
-            </a>
-          
-            <a href="https://books.zuri.team/"
-              className=" text-center bg-gray-200 text-lg font-medium text-black rounded-md py-6 "
-              type="a"
-            >
-              Python Books
-            </a>
-          
-            <a href="https://background.zuri.team/"
-              className=" text-center bg-gray-200 text-lg font-medium text-black rounded-md py-6 "
-              type="a"
-            >
-              Background Check for Coders
-            </a>
-          
-            <a href="https://books.zuri.team/design-rules"
-              className=" text-center bg-gray-200 text-lg font-medium text-black rounded-md py-6 "
-              type="a"
-            >
-              Design Books
-            </a>
+          <a
+            href="https://twitter.com/AjibolaAjibade4"
+            id="twitter"
+            className=" text-center bg-gray-200 text-lg font-medium text-black rounded-md py-6 "
+            type="a"
+          >
+            Twitter Link
+          </a>
+
+          <a
+            id="btn_zuri"
+            href="https://training.zuri.team/"
+            className=" text-center bg-gray-200 text-lg font-medium text-black rounded-md py-6 "
+            type="a"
+          >
+            Zuri Team
+          </a>
+
+          <a
+            id="books"
+            href="https://books.zuri.team/"
+            className=" text-center bg-gray-200 text-lg font-medium text-black rounded-md py-6 "
+            type="a"
+          >
+            Zuri Books
+          </a>
+
+          <a
+            id="book_python"
+            href="https://books.zuri.team/"
+            className=" text-center bg-gray-200 text-lg font-medium text-black rounded-md py-6 "
+            type="a"
+          >
+            Python Books
+          </a>
+
+          <a
+            id="pitch"
+            href="https://background.zuri.team/"
+            className=" text-center bg-gray-200 text-lg font-medium text-black rounded-md py-6 "
+            type="a"
+          >
+            Background Check for Coders
+          </a>
+
+          <a
+            id="book_design"
+            href="https://books.zuri.team/design-rules"
+            className=" text-center bg-gray-200 text-lg font-medium text-black rounded-md py-6 "
+            type="a"
+          >
+            Design Books
+          </a>
         </div>
       </div>
       <div className="flex space-x-5 items-center justify-center my-7 ">
