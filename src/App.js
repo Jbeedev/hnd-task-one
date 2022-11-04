@@ -1,10 +1,12 @@
+import Contact from "./Pages/Contact";
 import LinkTree from "./Pages/LinkTree";
 
 
 function App() {
   return (
     <div>
-     <LinkTree />
+     {/* <LinkTree /> */}
+     <Contact />
     </div>
   );
 }
