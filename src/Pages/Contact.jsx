@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 
 const Contact = () => {
   return (
-    <div className="  bg-white ">
+    <div className="mx-5  bg-white ">
       <div className=" lg:mx-[360px] bg-white ">
         <div className="mt-16 mb-[38px]">
           <h1 className="font-semibold text-4xl mb-4 ">Contact Me</h1>
