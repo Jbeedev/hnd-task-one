@@ -1,7 +1,8 @@
 import React from "react";
 import ProfileImg from "../images/about-image.jpg";
-import Logo from "../images/ingressive.png";
 import { BsGithub } from "react-icons/bs";
+import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 const LinkTree = () => {
   return (
@@ -17,62 +18,70 @@ const LinkTree = () => {
           <h3 id="jaybee" className=" text-xl font-bold">Ajibade Ajibola</h3>
         </div>
         <div className="flex flex-col space-y-4">
-          <a
-            href="https://twitter.com/AjibolaAjibade4"
+          <Link
+           to="https://twitter.com/AjibolaAjibade4"
             id="twitter"
             className=" text-center bg-gray-200 text-lg font-medium text-black rounded-md py-6 "
             type="a"
           >
             Twitter Link
-          </a>
+          </Link>
 
-          <a
+          <Link
             id="btn_zuri"
-            href="https://training.zuri.team/"
+           to="https://training.zuri.team/"
             className=" text-center bg-gray-200 text-lg font-medium text-black rounded-md py-6 "
             type="a"
           >
             Zuri Team
-          </a>
+          </Link>
 
-          <a
+          <Link
             id="books"
-            href="https://books.zuri.team/"
+           to="https://books.zuri.team/"
             className=" text-center bg-gray-200 text-lg font-medium text-black rounded-md py-6 "
             type="a"
           >
             Zuri Books
-          </a>
+          </Link>
 
-          <a
+          <Link
             id="book_python"
-            href="https://books.zuri.team/"
+           to="https://books.zuri.team/"
             className=" text-center bg-gray-200 text-lg font-medium text-black rounded-md py-6 "
             type="a"
           >
             Python Books
-          </a>
+          </Link>
 
-          <a
+          <Link
             id="pitch"
-            href="https://background.zuri.team/"
+           to="https://background.zuri.team/"
             className=" text-center bg-gray-200 text-lg font-medium text-black rounded-md py-6 "
             type="a"
           >
             Background Check for Coders
-          </a>
+          </Link>
 
-          <a
+          <Link
             id="book_design"
-            href="https://books.zuri.team/design-rules"
+           to="https://books.zuri.team/design-rules"
             className=" text-center bg-gray-200 text-lg font-medium text-black rounded-md py-6 "
             type="a"
           >
             Design Books
-          </a>
+          </Link>
+          <Link
+            id="contact"
+            to="/contact"
+            className=" text-center bg-gray-200 text-lg font-medium text-black rounded-md py-6 "
+            type="a"
+          >
+            Contact me
+          </Link>
         </div>
       </div>
-      <div className="flex space-x-5 items-center justify-center my-7 ">
+      <div className="flex space-x-5 items-center justify-center mt-7 ">
         <svg
           width="24"
           height="24"
@@ -109,7 +118,7 @@ const LinkTree = () => {
           <BsGithub />
         </div>
       </div>
-      
+      <Footer />
     </div>
   );
 };
